@@ -161,7 +161,7 @@ $hide_Cols = isset($cfg->data['hide_Cols']) ? $cfg->data['hide_Cols'] : true;
 $calc_folder = isset($cfg->data['calc_folder']) ? $cfg->data['calc_folder'] : true;
 
 // Theme
-$theme = isset($cfg->data['theme']) ? $cfg->data['theme'] : 'light';
+$theme = isset($cfg->data['theme']) ? $cfg->data['theme'] : 'dark';
 
 define('FM_THEME', $theme);
 
